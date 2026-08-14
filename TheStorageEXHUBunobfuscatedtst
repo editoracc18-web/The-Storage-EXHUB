@@ -1,6 +1,7 @@
 -- Generated UI Reconstruction Script
 local root = Instance.new('ScreenGui')
 root.Name = "EXXGUITheStorage"
+root.Enabled = true
 local obj_Main_1057 = Instance.new("Frame")
 obj_Main_1057.Name = "Main"
 obj_Main_1057.ClassName = "Frame"
