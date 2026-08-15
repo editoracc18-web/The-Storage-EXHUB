@@ -1,5 +1,5 @@
 -- Generated UI Reconstruction Script Optimized for Delta Execution
-local root = Instance.new("ScreenGui", gethui and gethui() or syn and syn.protect_gui and game:GetService("CoreGui") or game.Players.LocalPlayer:WaitForChild("PlayerGui"))
+local root = Instance.new("ScreenGui", game.Players.LocalPlayer:WaitForChild("PlayerGui"))
 root.Name = "EXXGUITheStorage"
 root.ResetOnSpawn = false
 root.Enabled = true
