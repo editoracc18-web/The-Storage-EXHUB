@@ -7,6 +7,10 @@ root.DisplayOrder = 32767
 root.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 root.IgnoreGuiInset = true
 
+local MYframe = Instance.new("Frame", root)
+MYframe.Size = UDim2.new(0, 100, 0, 100)
+MYframe.Position = UDim2.new(0.5, 0, 0.5, 0)
+MYframe.Draggable = true
 local obj_Main_9163 = Instance.new("Frame", root)
 obj_Main_9163.Name = "Main"
 pcall(function() obj_Main_9163.Active = false end)
